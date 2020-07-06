@@ -9,4 +9,4 @@ def is_prime(number):
             return True       
       else:
         return False
-print(check_prime(num))
+print(is_prime(num))
