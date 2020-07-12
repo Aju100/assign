@@ -130,7 +130,7 @@ def cancel_student(student_list,std_name):
     file=open('student_info.txt','w')
     for _ in range(0,len(student_list)):
 
-        if(j!=list_index):
+        if(_!=list_index):
             file.write(student_list[_].name+',')
             file.write(str(student_list[_].age)+',')
             file.write(student_list[_].address+',')
@@ -139,7 +139,7 @@ def cancel_student(student_list,std_name):
             file.write('\n')
 
 
-    filename.close()
+    file.close()
     return  0
 
 def update_student_info(student_list,std_name):
