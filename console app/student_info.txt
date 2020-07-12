@@ -1,0 +1,5 @@
+Aju,19,ktm,0001,20200512,
+ram,19,ktm,002,2020,
+asin,9,asin@gmail.com,2000,2020,
+asin,19,asas,22323,20202,
+sushant,9,ktm,23232,2020,
