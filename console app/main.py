@@ -8,9 +8,9 @@ class students():
     registerDate:str
     courses_in_withprice={}
     courses_and_price = {
-    'Fullstack Js':20000,
-    'Python and Django':20000,
-    }
+            'Fullstack Js':20000,
+            'Python and Django':20000,
+            }
     # function to save a student information into a file
     def save(self):
         file = open('student_info.txt','a')
@@ -268,15 +268,21 @@ def main():
             update_student_info(obj_list,temp_name)
         else:
             print("No Such Fucntionality Yet")
-        students_list=read_previous_students()
-        obj_list=recreating_student_Object(students_list)
-        print('\n')
-        print('#####################################################')
-        print('\n')
-        print("""\
-    ~~~ Thank You for using IW Academy!
-                       ~ \033[1;94m@Aju Tamang\033[0m
-        """)
+
+        student_list()
+
+
+def student_list():
+
+    students_list=read_previous_students()
+    obj_list=recreating_student_Object(students_list)
+    print('\n')
+    print('#####################################################')
+    print('\n')
+    print("""\
+            ~~~ Thank You for using IW Academy!
+                   ~ \033[1;94m@Aju Tamang\033[0m
+    """)
 
 if __name__ == '__main__':
     main()
